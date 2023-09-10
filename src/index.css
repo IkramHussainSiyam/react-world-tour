@@ -1,0 +1,52 @@
+/* ------ CSS RESET ------ */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+ul,
+ol {
+  list-style-position: inside;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  background-color: transparent;
+  border: none;
+  outline-color: transparent;
+  cursor: pointer;
+  color: inherit;
+  font-size: 1rem;
+}
+img,
+svg,
+video {
+  display: block;
+}
+img,
+video {
+  height: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #fceeb5;
+  font-family: "inter", sans-serif;
+}

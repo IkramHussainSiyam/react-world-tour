@@ -1,0 +1,59 @@
+.heading {
+  font-size: 45px;
+  color: #20242d;
+  font-weight: 600;
+}
+.sub-title {
+  font-size: 30px;
+  color: #20242d;
+  font-weight: 600;
+}
+.mini-title {
+  margin-bottom: 5px;
+  font-size: 22px;
+  color: #20242d;
+  font-weight: 600;
+}
+.para {
+  font-size: 20px;
+  color: #434343;
+  line-height: 1.45;
+}
+.highlight {
+  font-weight: 600;
+  text-decoration: 1px solid underline #4a4a4a;
+}
+.mt {
+  margin-top: 25px;
+}
+.mtb {
+  margin-top: 45px;
+}
+.mr {
+  margin-right: 12px;
+}
+.container {
+  padding: 32px;
+}
+.btn {
+  font-family: "inter", sans-serif;
+  color: #fff;
+  padding: 5px 16px;
+  font-size: 19px;
+  border-radius: 4px;
+  background-color: rgb(47, 134, 255);
+
+  &:hover {
+    background-color: rgb(66, 145, 255);
+  }
+  &:active {
+    background-color: rgb(12, 112, 253);
+  }
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.gap {
+  gap: 1.25rem;
+}

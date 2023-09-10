@@ -1,0 +1,28 @@
+.card__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.countries__title {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.country__visited {
+  background-color: #95bfa9;
+  padding: 25px;
+  width: 500px;
+  border-radius: 5px;
+}
+.country__visited h3 {
+  color: #3f6953;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.country__visited > ul {
+  color: #3b6650;
+  list-style-type: decimal;
+  line-height: 1.7;
+  font-size: 1.125rem;
+}
